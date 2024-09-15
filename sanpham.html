@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asset/css/sanpham.css" />
+  </head>
+  <body>
+    <style>
+      .sale-ranking {
+        overflow: auto;
+        width: 100%;
+      }
+
+      .sale-ranking table {
+        border: 2px solid #0033ff;
+        height: 100%;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border-spacing: 0px;
+        text-align: center;
+      }
+
+      .sale-ranking caption {
+        caption-side: top;
+        text-align: center;
+      }
+
+      .sale-ranking th {
+        border: 2px solid #0033ff;
+        background-color: #b578aa;
+        color: #52016f;
+        padding: 10px;
+      }
+
+      .sale-ranking td {
+        border: 2px solid #0033ff;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 10px;
+      }
+    </style>
+    <div class="sale-ranking" role="region" tabindex="0">
+      <table>
+        <caption>
+          Table 1
+        </caption>
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Tiêu đề</th>
+            <th>Mô tả</th>
+            <th>View</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody class="product_mn">
+
+        </tbody>
+      </table>
+      <div style="margin-top: 8px">
+        Made with
+        <a href="https://www.htmltables.io/" target="_blank">HTML Tables</a>
+      </div>
+    </div>
+
+    <script src="./asset/js/sanpham.js"></script>
+  </body>
+</html>
