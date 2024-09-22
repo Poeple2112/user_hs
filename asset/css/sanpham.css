@@ -1,0 +1,40 @@
+.a_btn {
+    width: 130px;
+    height: 45px;
+    padding: 3px;
+    margin-left: 15px;
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      white,
+      black,
+      white,
+      black,
+      white,
+      black
+    );
+    background-size: 200%;
+    background-clip: padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p_btn:hover {
+    width: 130px;
+    height: 45px;
+    font-size: large;
+    font-weight: 550;
+    color: rgb(49, 111, 59);
+    background: rgb(52, 177, 96);
+  }
+  .p_btn {
+    width: 130px;
+    height: 45px;
+    font-size: large;
+  
+    color: rgb(255, 255, 255);
+    background: rgb(62, 56, 56);
+  }
+td{
+    min-width: 100px;
+}

@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  background: grey;
+}
+.user-info {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.user-info h2 {
+  color: #333;
+  text-align: center;
+}
+.user-info p {
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 400px;
+}
+.user-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.a_btn {
+  width: 130px;
+  height: 45px;
+  padding: 3px;
+  margin-left: 15px;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    white,
+    black,
+    white,
+    black,
+    white,
+    black
+  );
+  background-size: 200%;
+  background-clip: padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p_btn:hover {
+  width: 130px;
+  height: 45px;
+  font-size: large;
+  font-weight: 550;
+  color: rgb(49, 111, 59);
+  background: rgb(52, 177, 96);
+}
+.p_btn {
+  width: 130px;
+  height: 45px;
+  font-size: large;
+
+  color: rgb(255, 255, 255);
+  background: rgb(62, 56, 56);
+}
